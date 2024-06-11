@@ -121,7 +121,7 @@ header nav ul .active{
 
 
     main{
-        margin-block: 20px;
+    padding: 50px 100px;
     }
 
     .countries{
@@ -129,6 +129,7 @@ header nav ul .active{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
     .countries_content{
         width: 900px;
@@ -171,6 +172,22 @@ header nav ul .active{
         justify-content: center;
         align-items: center;
         
+     }
+
+     .valutico_header {
+        width: 650px;
+        text-align: center;
+        margin-top: 25px;
+     }
+
+     .valutico_header h1{
+        padding-bottom: 5px;
+        font-size: 25px;
+        line-height: 1.5;
+     }
+     .valutico_header p {
+        font-size: 15px;
+        line-height: 2;
      }
         
         
