@@ -211,15 +211,52 @@ header nav ul .active{
     padding-top: 5pxx;
 }
 
-.valuation {
-    
+/* ----------------Valuation content section----------------- */
+
+.valuations_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.valuations_header {
+    width: 790px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.valuations_header h1 {
+    padding-bottom: 5px;
 }
 
-.valuation_img img{
+.valuation_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47;
+    flex: 1;
+    align-items: center;
+}
+.valuation_text {
+ max-width: 500px;   
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 45px;
+}
+
+
+
+
+
+
+
+
+
+.valuation_img img {
     width: 450px;
+    max-width: 500px;
+
 
 }
-
 
     
     
