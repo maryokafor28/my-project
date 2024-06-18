@@ -1,0 +1,377 @@
+/* --------------------------MEDIA QUERY------------------------------ */
+
+
+
+@media (max-width: 1047px) {
+  .header_btn {
+    display: none;
+  }
+  .header_container {
+    padding: 30px 50px 30px 50px;
+  }
+  .hero_image img{
+    width: 800px;
+}
+
+.countries {
+  width: 100%;
+}
+.countries_content{
+  width: 700px;  
+
+}
+.firms img{
+  width: 150px;
+}
+
+.firms {
+  gap: 30px;
+  padding-top: 30px;
+}
+
+
+.valutico_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+ 
+}
+.valutico_content_text {
+  width: 200px;
+}
+
+
+
+.valutico_content_text h1{
+  font-size: 15px;
+}
+
+.valutico_content_text p{
+  font-size: 15px;
+}
+
+.valuation_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.valuation_content {
+  width: 100%;
+  
+}
+.valuation_text {
+  gap: 25px;
+  
+ }
+
+.valuation_text > div {
+width: 350px;
+
+}
+
+.valuation_text > div > h1 {
+font-size: 17px;
+font-weight: 700;
+}
+
+.valuation_text > div > p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  
+}
+
+.valuation_img img {
+  width: 450px;
+  height: 500px;
+  max-width: 400px;
+ 
+  
+}
+
+} 
+
+
+/*--------------------FOR TABLET------------------------ */
+
+ @media (max-width: 843px){
+
+ }
+    
+  .content{
+    width: 550px; 
+    
+}
+
+    
+.content h1{
+  font-size: 35px;
+  
+}
+    
+    
+.content p{
+  font-size: 18px;
+
+}
+
+.hero_image img{
+  width: 600px;
+}
+
+.countries_content{
+  width: 600px;  
+  text-align: center;
+
+}
+
+.countries_content p{
+  font-size: 17px;
+  line-height: 1.5;
+      
+}
+
+.firms img{
+  width: 130px;
+}
+
+.valutico_content{
+  display: flex;
+  gap: 70px;
+ 
+}
+.valutico_header p {
+  font-size: 18px;
+ 
+}
+
+
+
+
+.valuations_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.valuations_header {
+  width: 620px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+
+.valuation_content {
+  
+  width: 100%;
+  
+}
+.valuation_text {
+  gap: 25px;
+  
+ }
+
+.valuation_text > div {
+width: 220px;
+
+}
+
+.valuation_text > div > h1 {
+font-size: 17px;
+}
+
+.valuation_text > div > p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  
+}
+
+.valuation_img img {
+  width: 350px;
+  height: 600px;
+  max-width: 300px;
+ 
+  
+}
+
+
+
+/* ----------------------FOR MOBILE DEVICE--------------------- */
+
+@media(max-width:663px) {
+  
+header nav ul {
+  display: none;
+}
+
+#bx-open{
+  
+  display: block;
+  font-weight: 600;
+}
+
+
+
+
+.content{
+  width: 350px; 
+  
+}
+
+  
+.content h1{
+font-size: 30px;
+
+}
+  
+  
+.content p{
+font-size: 19px;
+line-height: 1.5;
+
+}
+
+.hero_image img{
+width: 400px;
+}
+
+
+.countries_content{
+  width: 350px;  
+
+
+}
+
+.countries_content p{
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+      
+}
+
+.firms img{
+  width: 150px;
+}
+.countries_content h1{
+  font-size: 22px;
+
+}
+
+.firms {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+}
+
+.valutico {
+  width: 100%;
+  
+}
+   
+.valutico_header {
+ width: 300px;
+}
+
+.valutico_header h1 {
+  font-size: 25px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.valutico_header p {
+ font-size: 15px;
+ line-height: 2;
+}
+
+
+.valutico_content{
+  flex-direction: column;
+
+}
+
+
+.valutico_content_text {
+  font-size: 18px;
+}
+
+
+.valuations_header {
+  width: 340px;
+
+}
+
+
+
+.valuations_header p{
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 5px;
+
+  
+}
+
+.valuation_content {
+  flex-direction: column-reverse;
+
+}
+.valuation_text {
+  gap: 25px;
+ }
+
+.valuation_text > div {
+width: 400px;
+
+}
+
+.valuation_text > div > h1 {
+  padding-bottom: 10px; 
+  font-weight: 800;
+}
+.valuation_text > div > p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.valuation_img img {
+  width: 400px;
+  max-width: 600px;
+  height: 400px;
+} 
+
+.mobile_header {
+  display: none;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

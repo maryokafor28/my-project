@@ -1,21 +1,25 @@
 
+
 body{
+    width: 100%;
     font-family: manrope, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #130404;
+    /* font-size: 16px;
+    font-weight: 400; */
+    scrollbar-width: none;
+    background-color: white;
 }
  section {
     padding-bottom: 50px; 
 }
 
 .header_container {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 80px 25px 80px;
-    background-color: #ffffff;
     border-bottom: 1px solid #bbb8b8;
+    text-transform: capitalize;
 }
 .logo{
     width: 120px;
@@ -36,14 +40,43 @@ a {
 }
 
 header nav ul {
-    display: flex;
+    display: flex; 
     gap: 30px;
 
 }
 header nav ul .active{
     color: #065666;
     font-weight: 600;
-}    
+} 
+
+  /* -----------------mobile nav------------- */
+
+.mobile_header {
+    display: none;
+    background-color: #065666;   
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.mobile_header ul  {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+.mobile_header ul li a {
+    color: #ffff;
+    font-size: 20px;
+}
+
+    
+
 
 
 /*----stylying the dropdown icon and buttons---*/
@@ -80,7 +113,16 @@ header nav ul .active{
         color: darkblue;
     
     }
-
+    #bx-open {
+        font-size: 30px;
+        display: none;
+    }
+    #bx-close{
+        font-size: 30px;
+        font-weight: 600;
+        display: none;
+      }
+    
     /*------hero  container styling------*/
 
      .section_btn a{
@@ -110,7 +152,7 @@ header nav ul .active{
         gap: 20px;
     } 
     .hero_image img{
-        width: 1260px;
+        width: 1000px;
     }
     .content{
         width: 700px; 
@@ -172,7 +214,7 @@ header nav ul .active{
     /*-------------------- valutico-------- */
  
 .valutico {
-    padding-block: 10px;
+    padding-block: 10px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,27 +241,31 @@ header nav ul .active{
 }
 
 .valutico_header p {
-   font-size: 15px;
-   line-height: 2;
+   font-size: 12px;
+   line-height: 1,5;
 }
 
 
 .valutico_content{
-    display: flex;
-    justify-content: space-between;
+  
+    justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     padding: 50px;
    
 }
 
- .valutico_content_item{
-    width: 200px; 
+.valutico_content_text {
+    width: 300px;
 }
-.valutico_content h1{
+.valutico_content_text h1{
     padding-bottom: 5px;
-    padding-top: 5pxx;
+    padding-top: 5px;
 }
+
+.valutico_content_text p{
+    font-size: 13px;
+  }
 
 /* ----------------Valuation content section----------------- */
 
@@ -237,6 +283,12 @@ header nav ul .active{
 .valuations_header h1 {
     padding-bottom: 5px;
 }
+
+.valuations_header p{
+    font-weight: 600;
+
+  
+}  
 
 .valuation_content {
     display: flex;
@@ -261,12 +313,24 @@ header nav ul .active{
 }
 
 .valuation_text > div > h1 {
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
+    font-weight: 500; 
 }
 
+.valuation_text > div > p{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.6;
+    
+}
+
+
+
+    
 .valuation_img img {
-    width: 500px;
+    width: 450px;
     max-width: 600px;
+    height: 400px;
 }
 
                  /* ----------footer-------------- */
@@ -292,6 +356,9 @@ header nav ul .active{
      color: navy;
 }
 
+
+
+        
 
 
 

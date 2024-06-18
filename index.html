@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>valutico</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <script src="main.js"></script>
     <!-- stylesheet -->
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     
@@ -15,6 +16,15 @@
 <body>
     <header>
         <div class="header_container">
+            <nav class="mobile_header" >
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Solutions<span class="nav_down_arrow"> <i class='bx bx-chevron-down'></i></span></a></li></a></li>
+                    <li><a href="#">your Work<span class="nav_down_arrow"> <i class='bx bx-chevron-down'></i></span></a></li></a></li>
+                    <li><a href="#">company<span class="nav_down_arrow"> <i class='bx bx-chevron-down'></i></span></a></li></a></li>
+                   
+                </ul>
+            </nav> 
             <div class="logo"> 
             <img src="images/logo.png" alt="" class="logo">
             </div>
@@ -29,6 +39,10 @@
             </nav>
             <div class="header_btn">
                 <a class="button"  href="#">Request a Demo <span><i class='bx bx-check-square'></i></span></a>
+            </div>
+            <div class="menu">
+                <i id="bx-open" class='bx bx-menu'></i>
+                <i id="bx-close" class='bx bx-x'></i>
             </div>
 
 
@@ -125,21 +139,21 @@
                     
                     <div>
                         <h1>Personalise Your Reports</h1>
-                        <p>Save hours  transferring results from spreadsheets to slides, by exporting your resukts to powerpoint and word template effortlessly.</p>
+                        <p>Save hours  transferring results from spreadsheets to slides, by exporting your results to powerpoint and word template effortlessly.</p>
                     </div>
     
-                        
                     <div>
                         <h1>28 Valuation Method options</h1>
                         <p>From loss-making companies to mature enterprise and from startups to SME's. Value business of any type using multiple valuation method.</p>
                     </div>
-    
                         
                     <div>
                         <h1>Fast Access to Premium Data</h1>
                         <p>Access the most highly-trusted global databases of company financial data to locate the figures you need</p>
                     </div>
                 </div>
+    
+                        
                         
                      <div class="valuation_img">
                         <img src="images/valuation-image.png" alt="">
